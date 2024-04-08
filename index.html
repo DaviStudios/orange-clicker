@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <p style='font-size: 50px;' id='clcs'>ORANGES: 0</p>
+ <p style='font-size: 30px;' id='cpc'>ORANGES PER CLICK: 1</p>
+ <div style='display: flex; margin-right: 10px; '>
+  <button id='harvester' onclick='upgrade("harvester")'>HIRE AN HARVESTER-10|0 <img style='width: 80px; height: auto;' src='icons/harvester.png'></button><p> </p>
+  <button id='marketer' onclick='upgrade("marketer")'>HIRE AN MARKETER-50|0 <img style='width: 80px; height: auto;' src='icons/marketer.png'></button><p> </p>
+  <button id='manager' onclick='upgrade("manager")'>HIRE AN MANAGER-225|0 <img style='width: 80px; height: auto;' src='icons/manager.png'></button><p> </p>
+  <button id='factory' onclick='upgrade("factory")'>BUY AN FACTORY-1000|0 <img style='width: 80px; height: auto;' src='icons/factory.png'></button><p> </p>
+  <button id='industry' onclick='upgrade("industry")'>BUY AN INDUSTRY-7500|0 <img style='width: 80px; height: auto;' src='icons/industry.png'></button><p> </p>
+ </div>
+ <p> </p>
+ <button style="width: 200px; height: 200px; border: none;" onclick='orange()'><img style='width: 200px; height: 200px;'  src='icons/oranges/orange.png' id='orng'></button>
+ <p> </p>
+ <button onclick='resetData()'>RESET</button>
+ <script src="script.js"></script>
+</body>
+
+</html>
